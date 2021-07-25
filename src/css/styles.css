@@ -53,6 +53,7 @@ html,body {
 
 .has-search .form-control {
     padding-left: 2.375rem;
+    border-radius: 1rem;
 }
 
 .has-search .form-control-feedback {
@@ -66,3 +67,39 @@ html,body {
     pointer-events: none;
     color: #aaa;
 }
+
+.home-col-3 {
+    padding: 1rem;
+}
+
+.tpi-tip-card {
+    background-color: #F5EDE2;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.tpi-tip-card-title {
+    font-size: 0.7rem;
+}
+
+.tpi-tip-card-button {
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+.tpi-home-activities-counter {
+    background-color: #F5EDE2;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tpi-home-activities-counter .row {
+    display: flex;
+    align-items: center;
+}
+
+.tpi-home-activities-counter .row div:nth-child(1) {
+    text-align: center;
+}
+
+
