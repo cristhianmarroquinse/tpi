@@ -172,3 +172,78 @@ html,body {
 .story-background .row {
     padding: 4rem;
 }
+
+.story-title {
+    padding: 1rem;
+}
+
+.story-img {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.tpi-paragraph {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.story-prev-button {
+    position: absolute;
+    top: 50%;
+}
+
+.story-next-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.tpi-stories-back-button {
+    padding: 1rem;
+}
+
+.tpi-tips-container {
+    margin: 1rem;
+}
+
+.tpi-card-tips-title {
+    background-color: #F5EDE2;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 1rem;
+}
+
+.tpi-card-tips-row {
+    height: auto !important;
+}
+
+.tpi-card-tips-row .col-6 {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tpi-tip-card-tip {
+    background-color: #F5EDE2;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.tpi-tip-card-content {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.tpi-tip-card-img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tpi-tip-card-img img{
+    max-height: 100px;
+}
