@@ -2,10 +2,12 @@ html,body {
     height:100%;
 }
 
+.stories-root,
 .home-root {
     height:100%;
 }
 
+.stories-root .row,
 .home-root .row {
     height:100%;
 }
@@ -102,4 +104,45 @@ html,body {
     text-align: center;
 }
 
+.tpi-card-stories-title {
+    background-color: #F5EDE2;
+    border-radius: 1rem;
+    padding: 1rem;
+}
 
+.tpi-card-stories-container {
+    background-color: #F5F5F7;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.tpi-story-img {
+    height: 500px;
+    width: auto;
+    margin: auto;
+}
+
+.tpi-story-caption {
+    margin-top: 1rem;
+    position: unset !important;
+}
+
+.tpi-story-caption-title {
+    color: #212529;
+}
+
+.star-on {
+    color: gold;
+}
+
+.star-off {
+    color: #212529;
+}
+
+.tpi-story-caption-views {
+    color: #aaa;
+}
+
+.tpi-carousel-indicators {
+    margin: 0;
+}
